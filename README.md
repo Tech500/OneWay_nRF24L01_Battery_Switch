@@ -8,7 +8,7 @@ charges.
 
 1/13/2024  Files currently are a work in progress; only supporting turning a LED on and off.
 
-SPI pin connections for ESP32 DEVKIT V! board:
+SPI pin connections for ESP32 DEVKIT V1 board:
 
 MOSI   23
 MISO   19
