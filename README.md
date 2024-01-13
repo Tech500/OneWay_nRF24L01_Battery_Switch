@@ -3,7 +3,7 @@ ESP32 DEVKIT V1 nRF24L01+ Transciever and Receiver --Remote Battery Switch
 
 Transmitter\Receiver code to use two, nRF24L01 to remotely switch battery on or off for a low demand, 
 video live stream.  Goal is to add external wake-up for a deep sleeping, ESP32.  Web camera consumes 10,000 mAH 
-every 24 hours; switching battery on/off by webserver input for the nRF24L01; should extend battery power between batter 
+every 24 hours; switching battery on/off by webserver input for the nRF24L01; should extend battery power between battery 
 charges. 
 
 1/13/2024  Files currently are a work in progress; only supporting turning a LED on and off.
