@@ -5,7 +5,7 @@ Added external wake-up for a Deep Sleeping, ESP32.  n24L01 Transmitter\Receiver 
 video live stream.    Web camera consumes 10,000 mAH every 24 hours; switching battery on/off by webserver, URL Request over the nRF24L01 should extend battery between battery 
 charges. 
 
-Thanks to Google's Bard for answering my many prompt for respondes and guidence; made the project a reality!
+Thanks to Google's Bard for answering my many prompts and Bard's guidence; made the project a reality!
 
 1/14/2024  Files have been updated; supporting switching battery on/off, putting the ESP32 into Deep Sleep, and waking ESP32 from Deep Sleep; using external 0, RTC_GPIO pin.
 
