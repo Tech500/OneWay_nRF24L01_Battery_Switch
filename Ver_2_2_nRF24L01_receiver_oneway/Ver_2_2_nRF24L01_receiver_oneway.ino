@@ -63,7 +63,6 @@ void loop()
     {
       digitalWrite(relayPin, LOW);
       Serial.println("Battery power switched OFF"); 
-      radio.powerDown();
       Serial.println("nRF24L01 powered down");
       Serial.println("ESP32 going to Deep Sleep");
       goToDeepSleep();      
@@ -86,6 +85,8 @@ void goToDeepSleep() {
   esp_sleep_pd_config(ESP_PD_DOMAIN_RTC_PERIPH, ESP_PD_OPTION_ON);
   rtc_gpio_pullup_dis(GPIO_NUM_25);  
   rtc_gpio_pulldown_en(GPIO_NUM_25);
+
+  radio.powerDown();
 
   esp_deep_sleep_start();
   Serial.println("Testing --Not Deep Sleeping");  //This line should not print
